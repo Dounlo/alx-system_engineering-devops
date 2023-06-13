@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o ':/' echo $PATH 
+echo $PATH > file | grep -o ':/' file | echo $($(wc -l)+1) 
