@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR > file | cut -d ":" -f 3,4 file 
+ls -laR > file | cut -d ":" -f 2,3 file 
